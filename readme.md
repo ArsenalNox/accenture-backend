@@ -6,17 +6,17 @@
 
 ## Импортирование данных
 
-В программе импортировать файл pt/db/accetnure.dump
+В программе импортировать файл `pt/db/accetnure-neo4j.dump`
 
 ## Подготовка MySql
 
 Установить MySql
 Создать базу данных с названием accenture
-Импортировать базу данных из `pt/db/sql.dump`
+Импортировать базу данных из `pt/db/accenture.sql`
 
 Через консоль:
 
-`$ mysql -u username -p database_name < file.sql`
+`$ mysql -u username -p database_name < accenture.sql`
 
 Или через любую СУБД
 
@@ -44,3 +44,6 @@ neo4j через скрипт `import_data.py`
 ```bash
     node index.js
 ```
+
+## Проблемы с webview гарфов 
+
