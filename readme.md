@@ -16,7 +16,7 @@
 
 Через консоль:
 
-`$ mysql -u username -p database_name < file.sql`
+`$ mysql -u username -p database_name < accenture.sql`
 
 Или через любую СУБД
 
